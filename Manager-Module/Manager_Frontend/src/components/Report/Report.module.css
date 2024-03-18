@@ -1,0 +1,99 @@
+/* .report-logo {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 300px;
+  height: 136px;
+} */
+
+/* .report-container {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+} */
+
+/* .report-form {
+  position: absolute;
+  left: 20%;
+  top: 15%;
+  
+  margin-left: 50px;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 25%;
+} */
+.report-form {
+  position: absolute;
+  left: 25.85%;
+  top: 15%;
+  flex-direction: column;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  padding-top: 10px;
+  margin-left: -20px;
+}
+
+/* .report-form label {
+  font-size: 15px;
+  width: 150px; 
+  text-align: right; 
+  margin-right: 20px;
+}
+.report-form input[type="text"] {
+  width: 150px; 
+} */
+
+.report-form2 {
+  position: absolute;
+  right: 2.75%; /* Adjusted to right side */
+  top: 15%;
+  padding-top: 10px;
+  margin-left: 34px;
+}
+
+/* .report-buttons {
+  position: absolute;
+  bottom: 10%;
+} */
+/* .cancel-button:hover {
+  background-color: lightcoral;
+}
+
+.back-button:hover {
+  background-color: cyan;
+} */
+.activity-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cancel-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  /* background-color: #09ff00; */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+  font-weight: bold;
+}
+
+
+.cancel-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #dc3545; /* Red */
+  /* color: #fff; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+

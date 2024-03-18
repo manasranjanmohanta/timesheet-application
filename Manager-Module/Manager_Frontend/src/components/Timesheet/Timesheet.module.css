@@ -1,0 +1,190 @@
+/* .timesheet-container {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+} */
+
+
+.timesheet-form {
+  position: absolute;
+  left: 24.5%;
+  top: 15%;
+  flex-direction: column;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  padding-top: 10px;
+  margin-left: -20px;
+}
+
+.timesheet-form2 {
+  position: absolute;
+  right: 4.5%;
+  /* Adjusted to right side */
+  top: 15%;
+  padding-top: 10px;
+  margin-left: 34px;
+}
+
+.timesheet-table1 {
+  position: absolute;
+  left: 23.1%;
+  top: 34%;
+}
+/* 
+.timesheet-table2 {
+  position: absolute;
+  left: 23.6%;
+  top: 70%;
+  font-size: 5px;
+  width: 100%;
+} */
+
+.timesheet-table1 table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+}
+.timesheet-table1 th,
+.timesheet-table1 td {
+  padding: 8px; 
+  border: 1px solid black; 
+}
+
+.timesheet-table2 {
+  position: absolute;
+  left: 8.2%;
+  top: 52%;
+  display: flex;
+  
+}
+
+.timesheet-table2 table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: rgb(215, 209, 201);
+}
+
+.timesheet-approval {
+  position: absolute;
+  right: 3.8%;
+  bottom: 10%;
+}
+
+/* BEGIN: Responsive CSS */
+/* @media screen and (max-width: 768px) {
+  .timesheet-container {
+    position: relative;
+    height: auto;
+  }
+
+  .timesheet-logo {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .timesheet-form,
+  .timesheet-form2,
+  .timesheet-form3,
+  .timesheet-table1,
+  .timesheet-table2 {
+    position: relative;
+    left: 0%;
+    top: 0%;
+  }
+
+  .timesheet-approval {
+    position: relative;
+    right: 0%;
+    bottom: 0%;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .timesheet-form,
+  .timesheet-form2,
+  .timesheet-table2 {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* END: Responsive CSS */
+
+/* .approve-button:hover {
+  background-color: lightgreen;
+}
+
+.reject-button:hover {
+  background-color: lightcoral;
+}
+
+.back-button:hover {
+  background-color: cyan;
+} */
+
+.activity-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.approve-button,
+.reject-button,
+.cancel-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  /* background-color: #09ff00; */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+  font-weight: bold;
+}
+.approve-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.approve-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.reject-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #dc3545; /* Red */
+  /* color: #fff; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reject-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+.cancel-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #464bdf; /* Red */
+  /* color: #fff; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  background-color: #222bae; /* Darker red on hover */
+}

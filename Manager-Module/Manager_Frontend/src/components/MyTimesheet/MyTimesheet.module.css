@@ -1,0 +1,155 @@
+/* .activity-container {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+} */
+
+/* .activity-logo {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 300px;
+  height: 136px;
+} */
+
+.mytimesheet-form {
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    flex-direction: column;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    padding-top: 10px;
+    margin-left: -20px;
+  }
+  
+  .mytimesheet-form2 {
+    position: absolute;
+    right: 2.75%; /* Adjusted to right side */
+    top: 15%;
+    padding-top: 10px;
+    margin-left: 34px;
+    /* display: flex; */
+    /* flex-direction: column; Align elements vertically */
+  }
+  
+  /* .activity-form3 {
+    position: absolute;
+    left: 2.75%;
+    top: 27%;
+    font-size: medium;
+  } */
+  
+  .mytimesheet-table1 {
+    position: absolute;
+    left: 23.6%;
+    top: 40%;
+  }
+  
+  .mytimesheet-table2 {
+    position: absolute;
+    left: 23.6%;
+    top: 55%;
+    font-size: 5px;
+    width: 100%; 
+  }
+  /* .activity-table2 {
+    position: absolute;
+    left: 55%;
+    top: 55%;
+    transform: translateX(-55%);
+    display: flex;
+    justify-content: center;
+  } */
+  
+  .mytimesheet-table1 table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+  }
+  .mytimesheet-table1 th,
+  .mytimesheet-table1 td {
+    padding: 8px; 
+    border: 1px solid black; 
+  }
+  
+  .mytimesheet-table2 table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+  }
+  .mytimesheet-table2 th,
+  .mytimesheet-table2 td {
+   padding: 8px;
+    border: 1px solid black;
+  }
+  
+  .mytimesheet-approval {
+    position: absolute;
+    right: 1%;
+    bottom: 10%;
+  }
+  
+  .save-button:hover {
+    background-color: lightgreen;
+  }
+  
+  .cancel-button:hover {
+    background-color: lightcoral;
+  }
+  
+  .back-button:hover {
+    background-color: cyan;
+  }
+  
+  /* Activity.module.css */
+  
+  .mytimesheet-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .approve-button,
+  .reject-button,
+  .cancel-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    /* background-color: #09ff00; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+    font-weight: bold;
+  }
+  .approve-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .approve-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .cancel-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #dc3545; /* Red */
+    /* color: #fff; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }

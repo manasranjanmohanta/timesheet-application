@@ -1,0 +1,92 @@
+
+.dashboard-form {
+  position: absolute;
+  left: 24.5%;
+  top: 15%;
+  /* display: flex; */
+  padding-top: 10px;
+  margin-left: -20px;
+}
+
+.dashboard-form2 {
+  position: absolute;
+  right: 2.75%; /* Adjusted to right side */
+  top: 16%;
+  margin-left: 34px; 
+}
+
+
+.dashboard-table {
+  position: absolute;
+  left: 8.2%;
+  top: 48%;
+  display: flex;
+}
+
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .dashboard-form,
+  .dashboard-form2,
+  .dashboard-table {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* NavigationBar Component CSS */
+
+/* Container for the navigation bar */
+.NavbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff; /* Adjust background color as needed */
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* Logo style */
+.Logo {
+  width: 200px;
+  height: auto;
+}
+
+/* Menu container style */
+.MenuContainer {
+  display: flex;
+  align-items: center;
+}
+
+/* Individual menu item style */
+.MenuItem {
+  margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+/* Menu link style */
+.MenuLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Add smooth transition */
+}
+
+/* Menu link hover style */
+.MenuLink:hover {
+  background-color: #e0e4e8; /* Adjust hover background color */
+}
+
+/* Menu icon style */
+.MenuIcon {
+  margin-right: 5px; /* Adjust spacing between icon and text */
+}
+
+/* Footer container style */
+.FooterContainer {
+  margin-top: 20px;
+}
