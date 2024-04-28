@@ -45,7 +45,7 @@ public class SecurityConfig{
                 .csrf(csrf -> csrf.disable())
                 // Configures authorization rules
                 .authorizeHttpRequests(authorizeRequests -> authorizeRequests
-                        .requestMatchers("/api/v1/auth/**").permitAll() // Combines matchers for permitAll
+                        .requestMatchers("/api/v1/auth/**", "/swagger-ui/**", "/v3/**").permitAll() // Combines matchers for permitAll
                         .anyRequest().authenticated()
                 )
                 .exceptionHandling(exception -> exception.authenticationEntryPoint(jwtAuthenticationEntryPoint))
